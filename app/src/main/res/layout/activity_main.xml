@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhnen"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:gravity="center">
+
+        <Button
+
+            android:layout_marginTop="380dp"
+            android:onClick="Nhan1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Chơi"
+            android:layout_marginRight="70dp"
+            android:id="@+id/btnchoi"
+            android:background="@drawable/cutom_button"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>
